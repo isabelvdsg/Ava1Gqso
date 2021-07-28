@@ -1,5 +1,5 @@
 # Calculadora API (GQSO IFAL - AVA2)
 
-TODO [isabelvdsg]: 
+Este projeto contém o código de um API REST calculadora.
 
-preencher descrição das funcioalidades do projeto
+Neste projeto há modificações do readme.md do main.
