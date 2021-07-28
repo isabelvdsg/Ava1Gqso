@@ -1,4 +1,4 @@
-# Calculadora API (GQSO IFAL - AVA2)
+# Calculadora API (GQSO IFAL - 914)
 
 Este projeto contém o código de um API REST calculadora.
 
