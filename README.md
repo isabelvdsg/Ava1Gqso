@@ -2,6 +2,6 @@
 
 TODO [isabelvdsg]: 
 
-preencher descrição das funcioalidades do projeto.
+preencher descrição das funcionalidades do projeto.
 
 fazer alterações no projeto.
