@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class somap {
-    Run | Debug
+    Run | Debug 
     public static void main (String [ args]){
         double a, b, c = 0;
         Scanner s = new Scanner(System.in);
