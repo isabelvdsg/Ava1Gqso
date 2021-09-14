@@ -2,7 +2,7 @@ package app;
 
 import io.jooby.annotations.*;
 import io.jooby.exception.*;
-
+ 
 
 public class Soma {
     @Path("/soma/{a}/{b}")
