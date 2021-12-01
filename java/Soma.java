@@ -1,12 +1,8 @@
 package app;
 
-import io.jooby.annotations.*;
-import io.jooby.exception.*;
-
 public class Soma{
-    @Path("/soma/{a}/{b}")
-    @GET
-    public String rotaSoma(@PathParam String a,@PathParam String b){
+    
+    public String rotaSoma(String a, String b) throws Exception{
         try{
         double var1 = Double.parseDouble(a);
         double var2 = Double.parseDouble(b);
@@ -17,10 +13,9 @@ public class Soma{
             throw new Exception(String.format("Números invalidos:\"%s %s\"", a, b));
         }
     }
-}
  
 
-public static void main (String [] args){
+public static void main (String [] args) throws Exception{
     Soma sum = new Soma();
     String a = "1", b = "2";
     String resultado = sum.rotaSoma(a, b);
@@ -28,4 +23,4 @@ public static void main (String [] args){
     System.out.print(resultado);
 
 }
-
+} 
