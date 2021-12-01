@@ -3,7 +3,7 @@ package app;
 import io.jooby.annotations.*;
 import io.jooby.exception.*;
 
-public class Soma {
+public class Soma{
     @Path("/soma/{a}/{b}")
     @GET
     public String rotaSoma(@PathParam String a,@PathParam String b){
@@ -14,13 +14,18 @@ public class Soma {
 
         return String.format("%.2f", soma);
         } catch(NumberFormatException nfe){
-            throw new BadRequestException(String.format("Números invalidos:\"%s %s\"", a, b));
+            throw new Exception(String.format("Números invalidos:\"%s %s\"", a, b));
         }
     }
 }
  
 
 public static void main (String [] args){
+    Soma sum = new Soma();
+    String a = "1", b = "2";
+    String resultado = sum.rotaSoma(a, b);
+
+    System.out.print(resultado);
 
 }
 
