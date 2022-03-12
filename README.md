@@ -13,9 +13,11 @@
 
 Esse arquivo contém repositórios que implementam uma versão da Calculadora API utilizando a linguagem de programação Java.
 
+Esse repositório está habilitado em Integração Contínua através da Github Actions: Java with Maven.
+
 Nesse repositório está sendo implementada a função soma. 
 =======
-preencher descrição das funcionalidades do projeto.
+Preencher descrição das funcionalidades do projeto.
 
-fazer alterações no projeto.
+Fazer alterações no projeto.
 
